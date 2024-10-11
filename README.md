@@ -22,6 +22,10 @@ Realizamos una estadistica basica para detectar outliers
 
 ![Visualización de la existencia de outliers](https://github.com/Cygnus000/dieselSerieTiempo/blob/main/boxplotdiesel.png)
 
+Donde los outliers encontrados son 2.14 -2.90  1.71 -2.20  2.26 -1.44 -1.67  2.00 -1.98  1.63 -1.53
+
+En este caso 1.63 es el outlier positivo más pequeño.
+
 Ahora empleamos ARIMA para detectar los valores atipicos, obtenemos los siguientes resultados
 
 Outliers:
@@ -32,6 +36,8 @@ Outliers:
 |3 |  AO | 36 | 2020:01  | -2.20 |-3.414|
 |4 |  AO | 39 |  2020:04  |  2.26 | 3.507|
 |5 |  AO | 48 | 2021:01  |  2.00 | 3.103|
+
+En este caso 2.00 es el valor positivo más pequeño para un outlier.
 
 ![Valores atipicos](https://github.com/Cygnus000/dieselSerieTiempo/blob/main/outliersArima.png)
 
