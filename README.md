@@ -22,7 +22,15 @@ Realizamos una estadistica basica para detectar outliers
 
 ![Visualización de la existencia de outliers](https://github.com/Cygnus000/dieselSerieTiempo/blob/main/boxplotdiesel.png)
 
-Ahora empleamos ARIMA para detectar los valores atipicos
+Ahora empleamos ARIMA para detectar los valores atipicos, obtenemos los siguientes resultados
+
+Outliers:
+  type ind    time coefhat  tstat
+1   AO  12 2018:01    2.14  3.320
+2   AO  15 2018:04   -2.90 -4.500
+3   AO  36 2020:01   -2.20 -3.414
+4   AO  39 2020:04    2.26  3.507
+5   AO  48 2021:01    2.00  3.103
 
 ![Valores atipicos](https://github.com/Cygnus000/dieselSerieTiempo/blob/main/outliersArima.png)
 
